@@ -1,0 +1,364 @@
+@import "variables.css";
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;   
+}
+
+.background-paralax{
+    background-image: url(./../imagenes/dynamic-background/fondoIndex.jpg);
+    background-color: rgba(36, 36, 36);
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header */
+ 
+.header-main { 
+    background-image: url(../imagenes/header.jpg);
+    background-color: rgba(70, 70, 70, 1);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arcade-Regular; /* variables para dar estilos a las fuentes*/
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width:900px ) {
+    .header-main{
+        padding: 50px;
+        font-size: 20px;
+    }
+}
+
+.banner-container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner-tittle{
+    font-family: Arcade-Regular;
+    font-size: 30px;
+    vertical-align:middle;
+    text-shadow: 4px 4px red;
+}
+
+@media screen and (min-width:925px ) {
+    .banner-container{
+        margin: 50px ;
+    }
+    
+    .banner-tittle{
+        font-size: 75px;
+    }
+}
+
+@media screen and (min-width:900px ) {
+    .header-image{
+        height: 480px;
+    }
+}
+
+/* Elementos del nav*/
+
+.navMain{
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+}
+
+.navMain a{
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.a1{
+    border-right: solid 1px white ;
+}
+
+.navMain a:hover{
+    color: red;
+    transition: color 0.5s ease;
+}
+
+.navMain a.active {
+    background-color: brown;
+    color: white;
+}
+
+.icon{
+    display: none;
+}
+
+ @media screen and (max-width:900px ) {
+
+    .navMain a:not(:first-child) {
+        display: none;
+    }
+    
+    .navMain a.icon {
+        float: right;
+        display: block; 
+        text-align:start ;
+    }   
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .navMain.responsive {
+        position: relative;
+        flex-wrap:wrap ;
+    }
+
+    .navMain.responsive a.icon {
+        right: 0;
+        top: 0;
+    }
+
+    .navMain.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: small;
+        font-family: Arcade-Regular;
+    }
+    
+  }
+
+/*Text home 1 y 3*/
+
+.grid-text-home{
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    grid-template-columns: 60px 1fr;
+}
+
+.grid-text-home img{
+    max-width: 70px;
+}
+
+.text-home{
+    text-align:justify;
+    padding: 20px;   
+}
+
+/* Text home 2 */
+
+.grid-text-home2{
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    grid-template-columns: 1fr 60px;
+}
+
+.grid-text-home2 img{
+    max-width: 90px;
+}
+
+@media screen and (min-width:900px ) {
+
+    .grid-text-home{
+        grid-template-columns: 200px 1fr;
+        padding:50px 150px 50px 150px;
+    }
+
+    .grid-text-home2{
+        grid-template-columns: 1fr 200px;
+        padding:50px 150px 50px 150px;
+    }
+
+    .grid-text-home img{
+        max-width: 200px;
+    }
+
+    .grid-text-home2 img{
+        max-width: 200px;
+    }
+
+    .text-home{
+        text-align: justify;
+        font-size: x-large;   
+    }
+}
+
+/*contenido*/
+
+body {
+    width: 100%;
+    margin:0;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width:900px ) {
+    body{
+        font-size: 20px;
+    }
+}
+
+.content{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem; 
+    overflow: hidden;
+}
+
+/* Stream */
+
+.stream-grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-size: small;
+}
+
+.title{
+    font-family:Arcade-Regular; /*importado*/
+}
+
+.text-center{
+    text-align: center;
+    margin: auto;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+@media screen and (min-width:900px ) {
+    
+    .service-grid-transform:hover{
+        transform: scale(1.5);
+        transition: transform 0.5s ease-out;
+        cursor: pointer;
+    }
+
+    .service-grid-transform{
+        width: 150px;
+        margin: auto;
+    }
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #4d0400 ;
+    color: white;
+}
+
+.footer-main{
+    flex-direction: row;
+    overflow: hidden;
+    height: auto;
+    line-height: 2;
+    text-align: left;
+    padding: 1rem;
+}
+
+.footer-main > div{
+    border-bottom:solid 1px #ccc8c8 ;
+    padding-bottom: 15px;
+}
+
+.footer-main-contacto{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;  
+    margin-top: 10px;   
+}
+
+.footer-main-marca-registrada{
+    list-style: none;
+    display: flex;
+    gap: 2px;
+    align-items: center; 
+    line-height: 1;    
+}
+
+.footer-marca-registrada-text{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.footer-marca-registrada-text span{
+    font-size: 12px;
+    font-weight: 800;
+    color: #eaeaea;
+}
+
+.footer-grid-3{
+    display: grid;
+    grid-gap: 10px;
+    font-size: small;
+}
+
+.footer-image{
+    width: 70px;
+    height: 50px;
+    margin: 0.5rem;
+}
+
+.footer-text{
+    text-align: left;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:900px ) {
+    .footer-grid-3{
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 18px;
+    }
+
+    .footer-column-1{
+        grid-column: 3/4; 
+    }
+    .footer-column-2{
+        grid-column: 1/2;
+        grid-row: 1/-2;
+    }
+
+    .footer-column-3{
+        grid-column: 2/3;
+        grid-row: 1/-2;
+    }
+    
+    .footer-main > div{
+        border:0 ;
+    }
+}
+
+
+    
+

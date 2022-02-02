@@ -1,0 +1,21 @@
+/* CSS variables index */
+
+@font-face {
+    font-family: Arcade-Bold;
+    src: url('./../fonts/PressStart2P-Regular.ttf');
+    font-weight: 800;
+    
+}
+    
+@font-face {
+    font-family: Arcade-Regular;
+    src: url('./../fonts/PressStart2P-Regular.ttf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: NunitoSans-Regular;
+    src: url('./../fonts/NunitoSans-Regular.ttf');
+    font-weight: 100;
+}
+   

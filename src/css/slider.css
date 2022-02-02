@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+
+.slideshow-container{
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.mySlides{
+    display: none;
+    padding: 20px;
+}
+
+.mySlides img{
+    border: solid 1px white;
+    z-index:2;
+    -moz-box-shadow: 0 0 4px #444;
+    -webkit-box-shadow: 0 0 4px #444;
+    box-shadow: 0 0 15px rgba(1,1,1,.5);
+}
+
+@media screen and (min-width: 900px){ 
+    .mySlides{
+        padding:0px;
+        margin: 40px;
+    } 
+ }  
+
+ /* Flechas del slider */
+
+.direcciones{
+    font-size: 20px;
+}
+
+.direcciones p{
+    color: white;
+    display: inline-block;
+    padding:30px 10px 30px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.grid-slider{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+}
+
+@media screen and (min-width:900px) {
+
+    .grid-slider{
+        display: grid;
+        grid-template-columns: 0.1fr 1fr 0.1fr;
+    }
+
+    .direcciones{
+        font-size: 70px;
+    }
+
+    .direcciones p{
+        padding: 30px 30px;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+@media (hover:hover){
+    .direcciones p:hover{
+        background: rgba(97, 1, 1, 0.932);
+        transition: .5s;
+    }
+}
+
+/* Texto */
+
+.slider-content{
+    position: relative; 
+    right: 0;
+    display:block;
+}
+
+.slider-content p{
+    font-family: Arcade-Regular;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* CLASS_ENUM */
+
+
+.dynamic-slider-content{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50%;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-color: rgb(36,36,36);
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+}
+
+.--pacman {
+    background-image: url('./../imagenes/dynamic-background/pacman.jpg');
+    color: white;
+}
+
+.--donkey-kong {
+    background-image: url('./../imagenes/dynamic-background/donkey2.png');
+    color: white;
+}
+
+.--mario-bross {
+    color: white;
+    background-image: url('./../imagenes/dynamic-background/mario.jpg');
+}
+
+/* Animaciones de slider */
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+@keyframes fade{
+    from{opacity:.4}
+    to{opacity:1}
+}
