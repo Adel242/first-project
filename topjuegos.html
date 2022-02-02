@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import css -->
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/slider.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/303ae2ceeb.js"></script>
+    <!-- import js -->
+    <script src="./src/js/nav.js"></script>
+    <script defer type="text/javascript" src="./src/js/slider.js"></script>
+    
+    <title>Clasic Games</title>
+
+</head>
+
+<body>
+    <div class="dynamic-slider-content">
+        <div>
+            <header>
+                <div class="header-main" >
+                    <a href="index.html"><h1>Classic Games</h1></a><br>
+                    <p>La mejor experiencia en video juegos</p>
+                </div>
+            </header>
+        
+            <div class="navMain" id="myNav">
+                <a href="javascript:void(0);" class="icon" onclick="navFunction()"><i class="fas fa-bars"  ></i></a>
+                <a class="a1" href="index.html"><i class="fas fa-laptop-house"></i> Home</a>
+                <a class="a1 active" href="topjuegos.html"><i class="fas fa-gamepad"></i> Top juegos </a>
+                <a class="a1" href="noticias.html"><i class="fas fa-globe-europe"></i></i> Noticias </a>
+                <a  href="perfil.html"><i class="fas fa-headset"></i> Perfil del creador </a>
+            </div>
+        </div>
+
+        <!-- Carrusel (SlideShow) -->
+
+        <div class="slideshow-container"> 
+
+            <div class="grid-slider">
+                
+                <div class="direcciones">
+                    <p onclick="showSlides()">&#10094;</p>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="text2">Donkey Kong lorem.</div>
+                    <img src="./src/imagenes/carrusel/DonkeyKong.jpg" alt="" style="width: 80%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="text2">Pacman</div>
+                    <img src="./src/imagenes/carrusel/Pacman.jpg" alt="" style="width: 80%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="text2">Mario Bros</div>
+                    <img src="./src/imagenes/carrusel/SuperMarioBros.jpg" alt="" style="width: 80%">
+                </div>
+
+                <div class="direcciones">
+                    <p onclick="showSlides()">&#10095;</p>
+                </div>  
+            </div>
+        </div>
+
+        <div class="slider-content"></div>       
+    </div>
+
+<footer>
+    <div class="services text-center"><br>
+        <div class="footer-grid-3 footer-main" >
+            <div class="footer-column-1">
+                <h3 class="title">Arcade Games</h3>
+                <div class="footer-main-marca-registrada">
+                    <div><img src="./src/imagenes/marca.png" class="footer-image" alt=""></div>
+                    <div class="footer-marca-registrada-text">
+                        <span>Marca registrada</span>
+                        <span>Top garantizados por yo mismo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-column-2">
+                <p class="title">Contacto</p>
+                <div class="footer-main-contacto">
+                    <div ><i class="fas fa-phone-square-alt fa-2x"></i></i></div>
+                    <div><i class="fab fa-instagram fa-2x" ></i></div>
+                    <div ><i class="fab fa-facebook fa-2x"></i></div>
+                </div>   
+            </div>
+            <div class="footer-column-3"> 
+                <ul class="footer-text"> 
+                    <li><sapn >Marca registrada</span></li>
+                    <li></i><p> ©Arcade Games S.L 2021. Todos los derechos reservados sobre Arcade Games</p></li>   
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
