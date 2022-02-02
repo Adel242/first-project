@@ -1,0 +1,17 @@
+{
+    "donkey": { 
+        "tittle": "Donkey Kong",
+        "decription": "donkey kong "
+    },
+
+    "pacman":{
+        "tittle": "pacman Lore",
+        "decription": "pacman y volas"
+    },
+    "mario":{
+        "tittle": "Mario Bros Lore",
+        "decription": "Mario donde la princesa no te pesca"
+    }
+    
+}
+
