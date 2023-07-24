@@ -1,12 +1,12 @@
 {
     "donkey": { 
         "tittle": "Donkey Kong",
-        "decription": "donkey kong "
+        "decription": "Donkey kong "
     },
 
     "pacman":{
         "tittle": "pacman Lore",
-        "decription": "pacman y volas"
+        "decription": "Pacman el come puntitos"
     },
     "mario":{
         "tittle": "Mario Bros Lore",

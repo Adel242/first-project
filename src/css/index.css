@@ -1,11 +1,16 @@
 @import "variables.css";
 
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin:0;
     padding: 0;   
 }
-
+.title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Arcade-Regular;
+}
 .background-paralax{
     background-image: url(./../imagenes/dynamic-background/fondoIndex.jpg);
     background-color: rgba(36, 36, 36);
@@ -24,8 +29,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%; 
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom:15px ;
     text-align: center;
     font-size: 16px;
     font-family: Arcade-Regular; /* variables para dar estilos a las fuentes*/
@@ -37,12 +42,22 @@ a{
     color: white;
 }
 
+@media screen and (max-width:600px ) {
+    .background-paralax{
+        background-size: contain;
+        background-repeat:repeat;
+    }
+}
+
+
 @media screen and (min-width:900px ) {
     .header-main{
         padding: 50px;
         font-size: 20px;
     }
 }
+
+
 
 .banner-container{
     height: 50px;
