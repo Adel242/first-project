@@ -13,4 +13,4 @@ HTML5, CSS3 y JavaScript: Las tecnologías fundamentales para construir la estru
 Créditos
 Este proyecto ha sido desarrollado por Brian Muñoz como parte de mi desarrollo autodidacta.
 
-LINK de la pagina: https://adel242.github.io/videoGameNews.github.io/
+LINK de la pagina: https://adel242.github.io/videoGameNews
