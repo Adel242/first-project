@@ -29,7 +29,7 @@ const data = [
     },
     {
         imagen: "./src/imagenes/noticias/lol.png",
-        titulo: "Nuevo campeon de lol llefara pronto!",
+        titulo: "Nuevo campeon de lol llegara pronto!",
         texto: "Lorem ipsum dolor sit amet consectetur adipiscing elit nullam aliquet curabitur sem, semper viverra elementum ornare quis mollis vehicula nunc orci. Consequat interdum magna bibendum dictum sodales massa fermentum nisl natoque phasellus aptent porttitor blandit est ac, neque elementum sociis metus curabitur diam hendrerit vestibulum habitasse arcu venenatis dignissim aliquet tempus. Blandit molestie justo vitae dictum varius suscipit nisl lectus, vehicula imperdiet orci lobortis cum sapien gravida aptent, ad magnis diam metus lacus nascetur curabitur."
     },
 ];
