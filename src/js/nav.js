@@ -7,4 +7,4 @@ function navFunction() {
     } else {
         nav.className = "navMain";
     }
-}
+};

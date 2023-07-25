@@ -17,6 +17,6 @@ function toggleDisplay(selector) {
     } else {
       element.style.display = 'block';
     }
-  }
+  };
   
   setInterval(() => toggleDisplay('.banner-tittle, .subtitle'), 700);

@@ -5,8 +5,6 @@
 // function de flecha retorna de manrea inmediata el resultado.
 // const secondConverter = second => second * 1000; 
 
-
-
 const loadDict = (content) => {
     fetch('dictionary.json') 
     .then(response => response.json()) 

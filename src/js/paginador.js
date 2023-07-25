@@ -46,7 +46,7 @@ function generateSectionHTML(section) {
         </div>
       </div>
     `;
-}
+};
 
 function displaySections(page) {
     const itemsPerPage = 3;
@@ -58,5 +58,4 @@ function displaySections(page) {
     for (let i = start; i < end && i < data.length; i++) {
         container.insertAdjacentHTML("beforeend", generateSectionHTML(data[i]));
     }
-}
-
+};

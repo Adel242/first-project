@@ -57,8 +57,6 @@ a{
     }
 }
 
-
-
 .banner-container{
     height: 50px;
     display: flex;
@@ -160,7 +158,6 @@ a{
         font-size: small;
         font-family: Arcade-Regular;
     }
-    
   }
 
 /*Text home 1 y 3*/
@@ -282,7 +279,6 @@ body {
     }
 }
 
-
 /* Footer */
 
 footer{
@@ -373,7 +369,3 @@ footer{
         border:0 ;
     }
 }
-
-
-    
-
