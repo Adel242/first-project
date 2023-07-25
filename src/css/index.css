@@ -249,7 +249,8 @@ body {
 }
 
 .title{
-    font-family:Arcade-Regular; /*importado*/
+    font-family:Arcade-Regular;
+    margin-bottom: 50px;
 }
 
 .text-center{
@@ -260,7 +261,7 @@ body {
 .container{
     width: 100%;
     margin: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 0;
 }
 
