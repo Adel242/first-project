@@ -1,5 +1,11 @@
+.perfil-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.title-name{
+.title-name {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -8,32 +14,42 @@
 
 .subtitle-content {
     height: 50px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.subtitle{
+.subtitle {
     text-align: center;
     font-family: Arcade-Regular;
 }
 
-.img-text-perfil {
-    display: flex;
-    flex-direction: row;
-    text-align: justify;
-}
-
-.img-text-perfil > img {
+.img-perfil {
     width: 15%;
     margin: 20px;
     border-radius: 10%;
 }
 
-.text-perfil {
-    margin: 30px
+.img-text-perfil {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
 }
 
+
+
+.text-perfil {
+    margin: 30px;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.text-contend {
+    margin: 30px 30px 50px 30px;
+    text-align: center;
+    font-size: 20px;
+}
 
 @media screen and (max-width:1000px) {
     .img-text-perfil {
@@ -42,7 +58,7 @@
         align-items: center;
     }
 
-    .img-text-perfil > img {
+    .img-text-perfil>img {
         width: 30%;
         height: 10%;
         margin: 10px;
@@ -54,12 +70,9 @@
 }
 
 @media screen and (max-width:400px) {
-    .img-text-perfil > img {
+    .img-text-perfil>img {
         width: 40%;
         height: 10%;
         margin: 10px;
     }
 }
-
-
-

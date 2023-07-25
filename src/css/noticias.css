@@ -1,52 +1,113 @@
+/* styles.css */
+
 .text-noticias {
-    /* padding-right: 100px; */
     width: 100%;
     height: auto;
-    text-align: center;
     line-height: 1.5;
 }
 
 .title {
     font-family: Arcade-Regular;
     margin-top: 30px;
-    /*importado*/
 }
 
 .text-container {
     line-height: 1.5;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .box-noticias {
     display: flex;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .box-noticias>img {
-    width: 25%;
+    width: 15%;
 }
 
 .title-noticias {
-    text-align: start;
+    text-align: center;
     font-size: 30px;
 }
 
-.text-noticias>p {
+.text {
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
     text-align: justify;
+    border-bottom: solid 1px white;
 }
 
-@media screen and (max-width:600px) {
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.button-pagination-left {
+    font-size: 16px;
+    padding: none;
+    background-color: #050505;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    background-image: url("../imagenes/noticias/arrow-left.png");
+    width: 150px;
+    height: 120px;
+    margin-right: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-pagination-right {
+    font-size: 16px;
+    padding: none;
+    background-color: #050505;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    background-image: url("../imagenes/noticias/arrow-right.png");
+    width: 150px;
+    height: 120px;
+    margin-left: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-pagination-right:hover {
+  transform: scale(1.2);
+}
+
+.button-pagination-left:hover {
+    transform: scale(1.2);
+  }
+
+.pagination button:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+
+
+@media screen and (max-width:900px) {
     .box-noticias {
         display: flex;
         align-items: center;
         flex-direction: column;
         margin-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .box-noticias>img {
@@ -58,7 +119,7 @@
         font-size: 30px;
     }
 
-    .text-noticias > p {
+    .text-noticias>p {
         padding: 10px;
         height: 100%;
     }
@@ -79,9 +140,7 @@
     width: 100%;
     margin: auto;
     overflow: hidden;
-    padding: 4rem 1rem;
 }
-
 
 /* Video de Youtube */
 

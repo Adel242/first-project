@@ -2,144 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/index.css">
-    <link rel="stylesheet" href="./src/css/noticias.css">
-    <script src="https://kit.fontawesome.com/303ae2ceeb.js"></script>
-    <script src="./src/js/nav.js"></script>
-    <script defer type="text/javascript" src="./src/js/nav.js"></script>
-
-  
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/noticias.css">
+  <script src="https://kit.fontawesome.com/303ae2ceeb.js"></script>
+  <script src="./src/js/nav.js"></script>
+  <script defer type="text/javascript" src="./src/js/nav.js"></script>
+  <script src="./src/js/paginador.js"></script>
 </head>
+
 <title class="title">Noticias</title>
+
 <body class="background-paralax">
-    <div>
-        <header>
-            <div class="header-main">
-                <a href="index.html">
-                    <h1>Classic Games</h1>
-                </a><br>
-                <p>La mejor experiencia en video juegos</p>
-            </div>
-        </header>
 
-        <div class="navMain" id="myNav">
-            <a href="javascript:void(0);" class="icon" onclick="navFunction()"><i class="fas fa-bars"></i></a>
+  <div>
+    <header>
+      <div class="header-main">
+        <a href="index.html">
+          <h1>Classic Games</h1>
+        </a><br>
+        <p>La mejor experiencia en video juegos</p>
+      </div>
+    </header>
 
-            <a class="a1" href="index.html"><i class="fas fa-laptop-house"></i> Home</a>
-            <a class="a1" href="topjuegos.html"><i class="fas fa-gamepad"></i> Top juegos </a>
-            <a class="a1 active" href="noticias.html"><i class="fas fa-globe-europe"></i></i> Noticias </a>
-            <a class="a1" href="perfil.html"><i class="fas fa-headset"></i> Perfil del creador </a>
-        </div>
+    <div class="navMain" id="myNav">
+      <a href="javascript:void(0);" class="icon" onclick="navFunction()"><i class="fas fa-bars"></i></a>
+      <a class="a1" href="index.html"><i class="fas fa-laptop-house"></i> Home</a>
+      <a class="a1" href="topjuegos.html"><i class="fas fa-gamepad"></i> Top juegos </a>
+      <a class="a1 active" href="noticias.html"><i class="fas fa-globe-europe"></i></i> Noticias </a>
+      <a class="a1" href="perfil.html"><i class="fas fa-headset"></i> Perfil del creador </a>
     </div>
+  </div>
 
-    <div class="container, text-center, text-noticias">
-        <h2 class="title">NOTICIAS</h2>
-        <div class="text-container">
-            <div class="box-noticias">
-                <img src="./src/imagenes/noticias/nintendo-3ds.png" alt="">
-                <div class="text-noticias">
-                    <p class="title-noticias">Nintendo 3ds</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quibusdam vel ea. Amet officia
-                        maiores provident dolores. Modi provident ipsa debitis expedita eveniet, numquam corporis
-                        quibusdam, omnis ullam officia dolorum ipsum eos voluptatem. Delectus in voluptas accusantium
-                        velit laborum officiis aperiam, temporibus odio repellendus soluta corrupti earum dolorem
-                        aliquam optio placeat. Vel, labore! Maxime quaerat fuga vitae repellat saepe suscipit nihil,
-                        esse voluptate architecto repellendus, numquam, delectus omnis? Obcaecati ea perferendis
-                        provident sit culpa tempora repudiandae debitis rerum facilis voluptate quo soluta ipsa iste
-                        doloremque, eligendi nemo cupiditate eum sint corrupti natus eius error quibusdam voluptas
-                        voluptates. Doloribus, minima nobis.
-                    </p>
-                </div>
-            </div>
-        </div>
+  <div class="title-container">
+    <h2 class="title">Noticias</h2>
+  </div>
 
-        <div class="text-container">
-            <div class="box-noticias">
-                <img src="./src/imagenes/noticias/evento-nintendo.png" alt="">
-                <div class="text-noticias">
-                    <p class="title-noticias">Gran evento de Nintendo</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quibusdam vel ea. Amet officia
-                        maiores provident dolores. Modi provident ipsa debitis expedita eveniet, numquam corporis
-                        quibusdam, omnis ullam officia dolorum ipsum eos voluptatem. Delectus in voluptas accusantium
-                        velit laborum officiis aperiam, temporibus odio repellendus soluta corrupti earum dolorem
-                        aliquam optio placeat. Vel, labore! Maxime quaerat fuga vitae repellat saepe suscipit nihil,
-                        esse voluptate architecto repellendus, numquam, delectus omnis? Obcaecati ea perferendis
-                        provident sit culpa tempora repudiandae debitis rerum facilis voluptate quo soluta ipsa iste
-                        doloremque, eligendi nemo cupiditate eum sint corrupti natus eius error quibusdam voluptas
-                        voluptates. Doloribus, minima nobis.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="text-container">
-            <div class="box-noticias">
-                <img src="./src/imagenes/noticias/virtual.png" alt="">
-                <div class="text-noticias">
-                    <p class="title-noticias">Nueva consola virtual!!</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quibusdam vel ea. Amet officia
-                        maiores provident dolores. Modi provident ipsa debitis expedita eveniet, numquam corporis
-                        quibusdam, omnis ullam officia dolorum ipsum eos voluptatem. Delectus in voluptas accusantium
-                        velit laborum officiis aperiam, temporibus odio repellendus soluta corrupti earum dolorem
-                        aliquam optio placeat. Vel, labore! Maxime quaerat fuga vitae repellat saepe suscipit nihil,
-                        esse voluptate architecto repellendus, numquam, delectus omnis? Obcaecati ea perferendis
-                        provident sit culpa tempora repudiandae debitis rerum facilis voluptate quo soluta ipsa iste
-                        doloremque, eligendi nemo cupiditate eum sint corrupti natus eius error quibusdam voluptas
-                        voluptates. Doloribus, minima nobis.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+  <div class="container">
+    <h2 class="title"></h2>
+  </div>
 
-    <div class="video">
-        <iframe width="80%" height="315" src="https://www.youtube.com/embed/ozyq3PDRQsU" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
+  <div class="button-container">
+    <button class="button-pagination-left" id="page1">Pagina 1</button>
+    <button class="button-pagination-right" id="page2">Pagina 2</button>
+  </div>
+
+  <script src="paginator.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      displaySections(1);
+    });
+
+    document.getElementById("page1").addEventListener("click", () => displaySections(1));
+    document.getElementById("page2").addEventListener("click", () => displaySections(2));
+  </script>
+
+  <div class="video">
+    <iframe width="50%" height="315" src="https://www.youtube.com/embed/ozyq3PDRQsU" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
 
 </body>
 
 <footer>
-    <div class="services text-center"><br>
-        <div class="footer-grid-3 footer-main">
-            <div class="footer-column-1">
-                <h3 class="title">Arcade Games</h3>
-                <div class="footer-main-marca-registrada">
-                    <div><img src="./src/imagenes/marca.png" class="footer-image" alt=""></div>
-                    <div class="footer-marca-registrada-text">
-                        <span>Marca registrada</span>
-                        <span>Top garantizados por yo mismo</span>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-column-2">
-                <p class="title">Contacto</p>
-                <div class="footer-main-contacto">
-                    <div><i class="fas fa-phone-square-alt fa-2x"></i></i></div>
-                    <div><i class="fab fa-instagram fa-2x"></i></div>
-                    <div><i class="fab fa-facebook fa-2x"></i></div>
-                </div>
-            </div>
-            <div class="footer-column-3">
-                <ul class="footer-text">
-                    <li>
-                        <sapn>Marca registrada</span>
-                    </li>
-                    <li></i>
-                        <p> ©Arcade Games S.L 2021. Todos los derechos reservados sobre Arcade Games</p>
-                    </li>
-                </ul>
-            </div>
+  <div class="services text-center"><br>
+    <div class="footer-grid-3 footer-main">
+      <div class="footer-column-1">
+        <h3 class="title">Arcade Games</h3>
+        <div class="footer-main-marca-registrada">
+          <div><img src="./src/imagenes/marca.png" class="footer-image" alt=""></div>
+          <div class="footer-marca-registrada-text">
+            <span>Marca registrada</span>
+            <span>Top garantizados por yo mismo</span>
+          </div>
         </div>
+      </div>
+      <div class="footer-column-2">
+        <p class="title">Contacto</p>
+        <div class="footer-main-contacto">
+          <div><i class="fas fa-phone-square-alt fa-2x"></i></i></div>
+          <div><i class="fab fa-instagram fa-2x"></i></div>
+          <div><i class="fab fa-facebook fa-2x"></i></div>
+        </div>
+      </div>
+      <div class="footer-column-3">
+        <ul class="footer-text">
+          <li>
+            <sapn>Marca registrada</span>
+          </li>
+          <li></i>
+            <p> ©Arcade Games S.L 2021. Todos los derechos reservados sobre Arcade Games</p>
+          </li>
+        </ul>
+      </div>
     </div>
+  </div>
 </footer>
 
 </html>
