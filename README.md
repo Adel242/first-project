@@ -1,4 +1,4 @@
-# first-project
+# video game news
 
 ¡Bienvenido al repositorio de mi proyecto de página de noticias de videojuegos! En este proyecto, encontrarás una página landing con diversas interfaces que muestran noticias de videojuegos de manera sencilla y divertida. La finalidad de este proyecto es demostrar mi capacidad para aplicar diferentes estilos.
 
