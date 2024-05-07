@@ -1,4 +1,4 @@
-#Description
+# Description
 Este es un bot de chat construido como una extensión para Google Chrome, diseñado para interactuar con agentes especializados creados por CODE-GPT. Cada agente está entrenado para manejar información específica utilizando el modelo de lenguaje de CODE-GPT.
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte)
