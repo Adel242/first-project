@@ -11,6 +11,7 @@ Dinámica y entretenida: Además de presentar noticias, la página también cuen
 HTML5, CSS3 y JavaScript: Las tecnologías fundamentales para construir la estructura, diseño e interactividad de la página.
 
 Créditos
+
 Este proyecto ha sido desarrollado por Brian Muñoz como parte de mi desarrollo autodidacta.
 
 LINK de la pagina: https://adel242.github.io/videoGameNews
