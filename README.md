@@ -14,4 +14,4 @@ Créditos
 
 Este proyecto ha sido desarrollado por Brian Muñoz como parte de mi desarrollo autodidacta.
 
-LINK de la pagina: https://adel242.github.io/videoGameNews.
+LINK de la pagina: https://adel242.github.io/videoGameNews
